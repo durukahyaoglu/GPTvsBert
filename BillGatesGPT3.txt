@@ -1,0 +1,241 @@
+
+$  cd /home/dk2565/advanced-database-systems/project2 ; /usr/bin/env /usr/bin/python3 /home/durukahyaoglu/.vscode-server/extensions/ms-python.python-2023.4.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 47049 -- /home/dk2565/advanced-database-systems/project2/main.py -gpt3 [Client key] [Engine key] [OPEN AI key] 2 0.0 bill\ gates\ microsoft 10 
+
+======================
+Parameters:
+Client key           = *
+Engine key           = *
+OPEN AI key          = *
+Query                = bill gates microsoft
+Relation             = WORK_FOR(2)
+Minimum Confidence   = 0.7
+Num Output Tuples    = 10
+Google Search Results:
+======================
+
+=========== Iteration: 1 - Query: bill gates microsoft ===========
+
+
+URL (1 / 10): https://en.wikipedia.org/wiki/Bill_Gates
+        Fetching text from url...
+        Trimming webpage content from 796155 to 10000 characters
+        Webpage length (num characters): 10000
+        Annotating the webpage using spacy...
+        Extracted 68 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+
+                === Extracted Relation ===
+                Sentence: He is a co-founder of Microsoft, along with his late childhood friend Paul Allen.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: He is a co-founder of Microsoft, along with his late childhood friend Paul Allen.
+                Subject: Paul Allen ; Object: Microsoft ;
+                Adding to the set of relations
+
+
+        Extracted annotations for  1  out of total  68  sentences
+        Processed 5 / 68 sentences
+
+                === Extracted Relation ===
+                Sentence: In 1975, he and Allen founded Microsoft in Albuquerque, New Mexico.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+
+
+                === Extracted Relation ===
+                Sentence: In 1975, he and Allen founded Microsoft in Albuquerque, New Mexico.
+                Subject: Paul Allen ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+
+        Processed 10 / 68 sentences
+        Processed 15 / 68 sentences
+        Processed 20 / 68 sentences
+        Processed 25 / 68 sentences
+        Processed 30 / 68 sentences
+        Processed 35 / 68 sentences
+Cannot parse:  "
+
+                === Extracted Relation ===
+                Sentence: One of these systems was a PDP-10 belonging to Computer Center Corporation  which banned Gates, Paul Allen, Ric Weiland, and Gates's best friend and first business partner Kent Evans, for the summer after it caught them exploiting bugs in the operating system to obtain free computer time.
+ The four students formed the Lakeside Programmers Club to make money.
+                Subject: Gates ; Object: Computer Center Corporation ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: One of these systems was a PDP-10 belonging to Computer Center Corporation  which banned Gates, Paul Allen, Ric Weiland, and Gates's best friend and first business partner Kent Evans, for the summer after it caught them exploiting bugs in the operating system to obtain free computer time.
+ The four students formed the Lakeside Programmers Club to make money.
+                Subject: Paul Allen ; Object: Computer Center Corporation ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: One of these systems was a PDP-10 belonging to Computer Center Corporation  which banned Gates, Paul Allen, Ric Weiland, and Gates's best friend and first business partner Kent Evans, for the summer after it caught them exploiting bugs in the operating system to obtain free computer time.
+ The four students formed the Lakeside Programmers Club to make money.
+                Subject: Ric Weiland ; Object: Computer Center Corporation ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: One of these systems was a PDP-10 belonging to Computer Center Corporation  which banned Gates, Paul Allen, Ric Weiland, and Gates's best friend and first business partner Kent Evans, for the summer after it caught them exploiting bugs in the operating system to obtain free computer time.
+ The four students formed the Lakeside Programmers Club to make money.
+                Subject: Kent Evans ; Object: Computer Center Corporation ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: One of these systems was a PDP-10 belonging to Computer Center Corporation  which banned Gates, Paul Allen, Ric Weiland, and Gates's best friend and first business partner Kent Evans, for the summer after it caught them exploiting bugs in the operating system to obtain free computer time.
+ The four students formed the Lakeside Programmers Club to make money.
+                Subject: Gates ; Object: Lakeside Programmers Club ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: One of these systems was a PDP-10 belonging to Computer Center Corporation  which banned Gates, Paul Allen, Ric Weiland, and Gates's best friend and first business partner Kent Evans, for the summer after it caught them exploiting bugs in the operating system to obtain free computer time.
+ The four students formed the Lakeside Programmers Club to make money.
+                Subject: Paul Allen ; Object: Lakeside Programmers Club ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: One of these systems was a PDP-10 belonging to Computer Center Corporation  which banned Gates, Paul Allen, Ric Weiland, and Gates's best friend and first business partner Kent Evans, for the summer after it caught them exploiting bugs in the operating system to obtain free computer time.
+ The four students formed the Lakeside Programmers Club to make money.
+                Subject: Ric Weiland ; Object: Lakeside Programmers Club ;
+                Adding to the set of relations
+
+
+        Extracted annotations for  14  out of total  68  sentences
+        Processed 40 / 68 sentences
+
+                === Extracted Relation ===
+                Sentence: The following year, a Lakeside teacher enlisted Gates and Evans to automate the school's class-scheduling system, providing them computer time and royalties in return.
+                Subject: Bill Gates ; Object: Lakeside ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: The following year, a Lakeside teacher enlisted Gates and Evans to automate the school's class-scheduling system, providing them computer time and royalties in return.
+                Subject: Paul Allen ; Object: Lakeside ;
+                Adding to the set of relations
+
+
+        Extracted annotations for  16  out of total  68  sentences
+
+                === Extracted Relation ===
+                Sentence: Gates then turned to Allen who helped him finish the system for Lakeside.
+ At 17, Gates formed a venture with Allen called Traf-O-Data to make traffic counters based on the Intel 8008 processor.
+                Subject: Bill Gates ; Object: Traf-O-Data ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: Gates then turned to Allen who helped him finish the system for Lakeside.
+ At 17, Gates formed a venture with Allen called Traf-O-Data to make traffic counters based on the Intel 8008 processor.
+                Subject: Paul Allen ; Object: Traf-O-Data ;
+                Adding to the set of relations
+
+
+        Extracted annotations for  17  out of total  68  sentences
+        Processed 45 / 68 sentences
+
+                === Extracted Relation ===
+                Sentence: While at Harvard, he met fellow student Steve Ballmer.
+                Subject: Alec Radford ; Object: Harvard ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: While at Harvard, he met fellow student Steve Ballmer.
+                Subject: Steve Ballmer ; Object: Harvard ;
+                Adding to the set of relations
+
+
+        Extracted annotations for  18  out of total  68  sentences
+
+                === Extracted Relation ===
+                Sentence: Gates left Harvard after two years while Ballmer stayed and graduated magna cum laude.
+                Subject: Gates ; Object: Harvard ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: Gates left Harvard after two years while Ballmer stayed and graduated magna cum laude.
+                Subject: Ballmer ; Object: Harvard ;
+                Adding to the set of relations
+
+
+        Extracted annotations for  19  out of total  68  sentences
+        Processed 50 / 68 sentences
+
+                === Extracted Relation ===
+                Sentence: His solution was formalized and published in collaboration with Harvard computer scientist Christos Papadimitriou.
+ Gates remained in contact with Paul Allen and joined him at Honeywell during the summer of 1974.
+                Subject: Christos Papadimitriou ; Object: Harvard ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: His solution was formalized and published in collaboration with Harvard computer scientist Christos Papadimitriou.
+ Gates remained in contact with Paul Allen and joined him at Honeywell during the summer of 1974.
+                Subject: Gates ; Object: Honeywell ;
+                Adding to the set of relations
+
+
+        Extracted annotations for  22  out of total  68  sentences
+        Processed 55 / 68 sentences
+
+                === Extracted Relation ===
+                Sentence: MITS president Ed Roberts agreed to meet them for a demonstration, and over the course of a few weeks they developed an Altair emulator that ran on a minicomputer, and then the BASIC interpreter.
+                Subject: Ed Roberts ; Object: MIT ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: MITS president Ed Roberts agreed to meet them for a demonstration, and over the course of a few weeks they developed an Altair emulator that ran on a minicomputer, and then the BASIC interpreter.
+                Subject: Ed Roberts ; Object: Altair emulator ;
+                Adding to the set of relations
+
+                === Extracted Relation ===
+                Sentence: MITS president Ed Roberts agreed to meet them for a demonstration, and over the course of a few weeks they developed an Altair emulator that ran on a minicomputer, and then the BASIC interpreter.
+                Subject: Ed Roberts ; Object: BASIC interpreter ;
+                Adding to the set of relations
+
+
+        Extracted annotations for  23  out of total  68  sentences
+        Processed 60 / 68 sentences
+Cannot parse:  Allen:"WORK_FOR":"MITS"
+Cannot parse:  Gates:"WORK_FOR":"MITS"
+        Processed 65 / 68 sentences
+
+                === Extracted Relation ===
+                Sentence: Microsoft's Altair BASIC was popular with computer hobbyists, but Gates discovered that a pre-market copy had leaked out and was being widely copied and distributed.
+                Subject: Bill Gates ; Object: Microsoft ;
+                Duplicate. Ignoring this.
+                ==========
+
+
+                === Extracted Relation ===
+                Sentence: Microsoft's Altair BASIC was popular with computer hobbyists, but Gates discovered that a pre-market copy had leaked out and was being widely copied and distributed.
+                Subject: Microsoft ; Object: Altair BASIC ;
+                Adding to the set of relations
+
+
+        Extracted annotations for  27  out of total  68  sentences
+        Relations extracted from this website: 1 (Overall: 23)
+============== ALL RELATIONS for per:employee_of ( 23 )==============
+Subject: Bill Gates         | Object: Microsoft         
+Subject: Paul Allen         | Object: Microsoft         
+Subject: Gates              | Object: Computer Center Corporation
+Subject: Paul Allen         | Object: Computer Center Corporation
+Subject: Ric Weiland        | Object: Computer Center Corporation
+Subject: Kent Evans         | Object: Computer Center Corporation
+Subject: Gates              | Object: Lakeside Programmers Club
+Subject: Paul Allen         | Object: Lakeside Programmers Club
+Subject: Ric Weiland        | Object: Lakeside Programmers Club
+Subject: Bill Gates         | Object: Lakeside          
+Subject: Paul Allen         | Object: Lakeside          
+Subject: Bill Gates         | Object: Traf-O-Data       
+Subject: Paul Allen         | Object: Traf-O-Data       
+Subject: Alec Radford       | Object: Harvard           
+Subject: Steve Ballmer      | Object: Harvard           
+Subject: Gates              | Object: Harvard           
+Subject: Ballmer            | Object: Harvard           
+Subject: Christos Papadimitriou | Object: Harvard           
+Subject: Gates              | Object: Honeywell         
+Subject: Ed Roberts         | Object: MIT               
+Subject: Ed Roberts         | Object: Altair emulator   
+Subject: Ed Roberts         | Object: BASIC interpreter 
+Subject: Microsoft          | Object: Altair BASIC      
+Total # of iterations = 1
+Enough relations extracted. Exiting the program.

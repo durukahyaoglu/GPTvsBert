@@ -1,0 +1,2 @@
+BeautifulSoup4 Pure Text crawling, https://stackoverflow.com/questions/1936466/how-to-scrape-only-visible-webpage-text-with-beautifulsoup
+Improve Python Scraping Success Rate, https://python-forum.io/thread-28613.html
