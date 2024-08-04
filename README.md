@@ -1,4 +1,4 @@
-#Information Extraction System Implementation using Iterative Set Expansion
+### Information Extraction System Implementation using Iterative Set Expansion
 Implementation of an information extraction system that uses Iterative Set Expansion over search results returned by Google, parsed with BeautifulSoup, spaCY and processed with GPT3 and Bert, to extract relations from the web, of a given type among four categories.
 
 This is a project that I developped in Fall 2017 for the course COMS 6111 Advanced Database Systems taught by Professor Luis Gravano at Columbia University. Below are the instructions and the readme that I submitted for the project.
